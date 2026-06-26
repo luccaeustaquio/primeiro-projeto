@@ -8,3 +8,7 @@ while num_Dig != num_Aleatorio:
 
     if num_Dig == num_Aleatorio:
         print(f"Acertou ! O número era {num_Dig}")
+    elif num_Dig > num_Aleatorio:
+        print("O número é Menor")
+    elif num_Dig < num_Aleatorio:
+        print("O número é Maior")
